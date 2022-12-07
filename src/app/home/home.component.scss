@@ -1,0 +1,29 @@
+h1 {
+    font-family:cursive;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+button{
+    font-size: 26px;
+    margin: 12px;
+}
+
+.div--header {
+    margin: 50px;
+    mat-icon {
+        font-size: 50px;
+        margin: 50px;
+    }
+}
+
+.div--footer {
+    margin: 50px;
+    position:fixed;
+    bottom: 50px;
+    left: 25%;
+    mat-icon {
+        font-size: 50px;
+        margin: 50px;
+    }
+}
