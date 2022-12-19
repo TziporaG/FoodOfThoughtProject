@@ -1,3 +1,7 @@
+import * as process from 'process';
+(window as any).process = process;
+import { Buffer } from 'buffer';
+(window as any).Buffer = Buffer;
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
